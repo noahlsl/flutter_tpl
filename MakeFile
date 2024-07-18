@@ -1,0 +1,13 @@
+
+
+# 设备启动图初始化
+nativesplash:
+	# flutter pub add flutter_native_splash
+    flutter pub run flutter_native_splash:create
+
+# APP图标生成
+appiocn:
+	#flutter pub add flutter_launcher_icons
+	flutter packages get
+	flutter pub run flutter_launcher_icons:main
+
