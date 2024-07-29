@@ -30,8 +30,8 @@ class MyApp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           title: 'Book',
           // 样式
-          theme: ThemeData.light(),
-          darkTheme: ThemeData.dark(),
+          theme: AppTheme.light,
+          darkTheme: AppTheme.dark,
           themeMode: ThemeMode.light,
 
           // 初始路由
