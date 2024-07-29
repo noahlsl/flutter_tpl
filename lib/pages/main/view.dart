@@ -81,7 +81,6 @@ class MainPage extends GetView<MainController> {
       id: "main",
       builder: (_) {
         return Scaffold(
-          appBar: AppBar(title: const Text("main")),
           body: SafeArea(
             child: _buildView(),
           ),
