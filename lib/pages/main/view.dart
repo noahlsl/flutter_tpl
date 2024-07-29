@@ -81,9 +81,7 @@ class MainPage extends GetView<MainController> {
       id: "main",
       builder: (_) {
         return Scaffold(
-          body: SafeArea(
-            child: _buildView(),
-          ),
+          body: _buildView(),
         );
       },
     );

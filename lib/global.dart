@@ -7,8 +7,11 @@ import '/common/index.dart';
 class Global {
   static Future init() async {
     // NativeSplash 设备启动图
-    WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
-    FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
+    // TODO 加了这全白屏
+    // WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
+    // FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
+
+
     // 先执行Flutter原生初始化
     WidgetsFlutterBinding.ensureInitialized();
     // 样式自适配

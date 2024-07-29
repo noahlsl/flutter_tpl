@@ -30,9 +30,9 @@ class MyApp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           title: 'Book',
           // 样式
-          theme: AppTheme.light,
-          darkTheme: AppTheme.dark,
-          themeMode: ThemeMode.system, // Automatically switch between light and dark theme based on system setting
+          theme: ThemeData.light(),
+          darkTheme: ThemeData.dark(),
+          themeMode: ThemeMode.light,
 
           // 初始路由
           initialRoute: RouteNames.splash,
